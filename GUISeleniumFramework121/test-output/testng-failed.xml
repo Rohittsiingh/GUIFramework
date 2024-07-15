@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.comcast.crm.generic.listenerutility.ListImpClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.shopping.FashionModule.AddFashionProductToCart">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="addFashionProductToCartTest"/>
+        </methods>
+      </class> <!-- com.shopping.FashionModule.AddFashionProductToCart -->
+      <class name="com.shopping.FashionModule.AddFashionProductToWishlist">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="addFashionProductToWishlistTest"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- com.shopping.FashionModule.AddFashionProductToWishlist -->
+      <class name="com.shopping.ToysModule.AddToysProductTocart">
+        <methods>
+          <include name="configBM"/>
+          <include name="addToysProductToCart"/>
+          <include name="configAM"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- com.shopping.ToysModule.AddToysProductTocart -->
+      <class name="com.shopping.ToysModule.OrderCarProductWithCod">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="orderCarProductWithCod"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- com.shopping.ToysModule.OrderCarProductWithCod -->
+      <class name="com.shopping.TrackFunctionality.TrackOrderDate">
+        <methods>
+          <include name="trackOrederDateTest"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- com.shopping.TrackFunctionality.TrackOrderDate -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

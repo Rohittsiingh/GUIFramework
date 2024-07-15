@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+  <test  name="Tests">
+    <classes>
+      <class name="com.shopping.FashionModule.AddFashionProductToCart"/>
+      <class name="com.shopping.FashionModule.AddFashionProductToWishlist"/>
+      <class name="com.shopping.ToysModule.AddToysProductTocart"/>
+      <class name="com.shopping.ToysModule.OrderCarProductWithCod"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

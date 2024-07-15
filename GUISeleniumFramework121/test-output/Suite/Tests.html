@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>TestNG:  Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 12 18:32:30 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22219 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.shopping.FashionModule.AddFashionProductToCart.addFashionProductToCartTest()'><b>addFashionProductToCartTest</b><br>Test class: com.shopping.FashionModule.AddFashionProductToCart<br/>
+<a href="#Output-312766685" onClick='toggleBox("Output-312766685", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-312766685" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-312766685">
+FashionPage is displayed<br/>
+Mens FootwarePage is displayed<br/>
+Alert is displayed<br/>
+My cart Page is displayed<br/>
+Product is present in the my cart list<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.shopping.FashionModule.AddFashionProductToCart@6f46426d</td></tr>
+<tr>
+<td title='com.shopping.FashionModule.AddFashionProductToWishlist.addFashionProductToWishlistTest()'><b>addFashionProductToWishlistTest</b><br>Test class: com.shopping.FashionModule.AddFashionProductToWishlist<br/>
+<a href="#Output-1792826268" onClick='toggleBox("Output-1792826268", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1792826268" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1792826268">
+FashionPage is displayed<br/>
+Mens FootwarePage is displayed<br/>
+Mens FootwarePage is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.shopping.FashionModule.AddFashionProductToWishlist@73700b80</td></tr>
+<tr>
+<td title='com.shopping.ToysModule.AddToysProductTocart.addToysProductToCart()'><b>addToysProductToCart</b><br>Test class: com.shopping.ToysModule.AddToysProductTocart<br/>
+<a href="#Output-178658894" onClick='toggleBox("Output-178658894", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-178658894" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-178658894">
+ToysPage is displayed<br/>
+Metal car is displayed<br/>
+Product is added to the cart<br/>
+Alert is displayed<br/>
+Product is present in the cart list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.shopping.ToysModule.AddToysProductTocart@49c7b90e</td></tr>
+<tr>
+<td title='com.shopping.ToysModule.OrderCarProductWithCod.orderCarProductWithCod()'><b>orderCarProductWithCod</b><br>Test class: com.shopping.ToysModule.OrderCarProductWithCod<br/>
+<a href="#Output-758201484" onClick='toggleBox("Output-758201484", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-758201484" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-758201484">
+ToysPage is displayed<br/>
+Metal car is displayed<br/>
+Product is added to the cart<br/>
+Alert is displayed<br/>
+Checkout button is clicked<br/>
+Submit Button is clicked<br/>
+Order Is varified form the Order History Page Button<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.shopping.ToysModule.OrderCarProductWithCod@10d307f1</td></tr>
+</table><p>
+</body>
+</html>
