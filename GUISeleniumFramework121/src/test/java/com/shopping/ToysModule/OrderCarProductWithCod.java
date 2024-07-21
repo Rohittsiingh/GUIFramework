@@ -23,7 +23,7 @@ import org.testng.asserts.*;
 
 /**
  * 
- * @author Rohitt
+ * @author Rohitt siingh
  * 
  * Contains test case to order Car Product with COD
  *
@@ -45,6 +45,7 @@ public class OrderCarProductWithCod extends BaseClass{
 		Assert.assertEquals(expectedToysPage, openedToysPage,"unable to open the Toys page");
 		UtilityClassObject.getTest().log(Status.PASS, "ToysPage is displayed");
 		Reporter.log("ToysPage is displayed", true);
+		System.out.println("Toys product page created");
 		
 		ToysPage toysPage = new ToysPage(driver);
 		UtilityClassObject.getTest().log(Status.PASS, "Mens Metal car page displayed");
